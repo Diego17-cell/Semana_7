@@ -14,6 +14,19 @@ html{
 
 header{
     background-color: rgb(131, 131, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.logo img{
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
 }
 
 nav{
@@ -48,3 +61,62 @@ img{
     box-shadow: 12px 1px 15px 14px rgb(9, 16, 16);
 }
 
+.color{
+    padding: 30px 50px;
+    border: 7px solid rgb(0, 0, 0);
+    margin: 40px auto;
+    outline: 3px solid blue;
+    box-shadow: 9px 9px 20px 9px purple;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow:9px 9px 9px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+h2{
+    color: rgb(51, 185, 28)
+}
+
+section > h2{
+    color: rgb(89, 0, 255) !important;
+    /*  > hijo directo de */
+}
+
+.imagen + p{
+    color: blueviolet;
+    /* Parrafo continuo o adyacente que esta al mismo nivel */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bloque img{
+    width: 45%;
+    padding: 30px;
+    display: block;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    background-color: cadetblue;
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: cadetblue;
+    transition-delay: 0.15s;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(40, 21, 21);
+}
